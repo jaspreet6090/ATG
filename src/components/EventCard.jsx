@@ -16,16 +16,16 @@ const EventCard = () => {
   return (
     <section className='flex justify-between w-full '>
 
-    <div className="sm:mr-10  md:w-3/4 w-full flex flex-col gap-4 mt-4">
-    <div className="w-full mx-auto bg-white border border-gray-300 rounded-lg shadow-md overflow-hidden">
+    <div className="sm:mr-10  md:w-3/4  w-full flex flex-col gap-4 mt-4">
+    <div className="space-y-3 w-full mx-auto bg-white border border-gray-300 rounded-lg shadow-md overflow-hidden">
       <img
         src={card1}// Replace with your image URL
         alt="Event"
-        className="w-full h-48 object-cover"
+        className="w-full h-[250px] object-cover"
       />
       <div className="p-4">
         <div className="flex justify-between items-center">
-          <span className=" font-semibold">✍️ Article</span>
+          <span className=" font-semibold text-lg">✍️ Article</span>
           <div className="relative">
             <button onClick={toggleMenu} className="text-gray-500 hover:text-black">
               <FaEllipsisH />
@@ -39,10 +39,10 @@ const EventCard = () => {
             )}
           </div>
         </div>
-        <h2 className="text-xl font-bold my-2">
+        <h2 className="text-2xl font-bold my-2">
         What if famous brands had regular fonts? Meet RegulaBrands!       </h2>
         
-       <p className='text-gray-500'>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+       <p className='text-gray-500 text-xl'>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
         <div className="flex items-center justify-between mt-4">
           <div className="flex items-center">
             <img
@@ -69,7 +69,7 @@ const EventCard = () => {
       />
       <div className="p-4">
         <div className="flex justify-between items-center">
-          <span className="text-red-600 font-semibold">🔬️ Education</span>
+          <span className="text-red-600 font-semibold text-lg">🔬️ Education</span>
           <div className="relative">
             <button onClick={toggleMenu} className="text-gray-500 hover:text-black">
               <FaEllipsisH />
@@ -83,7 +83,7 @@ const EventCard = () => {
             )}
           </div>
         </div>
-        <h2 className="text-xl font-bold my-2">
+        <h2 className="text-2xl font-bold my-2">
         Tax Benefits for Investment under National Pension Scheme launched by Government        </h2>
         
         <p className='text-gray-500'>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
@@ -114,7 +114,7 @@ const EventCard = () => {
       />
       <div className="p-4">
         <div className="flex justify-between items-center">
-          <span className=" font-semibold"><i class="fa-solid fa-calendar-days"></i> Meetup</span>
+          <span className=" font-semibold text-lg"><i class="fa-solid fa-calendar-days"></i> Meetup</span>
           <div className="relative">
             <button onClick={toggleMenu} className="text-gray-500 hover:text-black">
               <FaEllipsisH />
@@ -128,7 +128,7 @@ const EventCard = () => {
             )}
           </div>
         </div>
-        <h2 className="text-xl font-bold my-2">
+        <h2 className="text-2xl font-bold my-2">
           Finance & Investment Elite Social Mixer @Lujiazui
         </h2>
         <div className="flex items-center text-gray-600 text-sm mb-2">
@@ -137,7 +137,7 @@ const EventCard = () => {
           <FaMapMarkerAlt className="ml-4 mr-2" />
           Ahmedabad, India
         </div>
-        <button className="block w-full text-center text-orange-600 font-semibold border border-orange-600 rounded-md py-2 hover:bg-orange-50">
+        <button className="block w-full text-center text-orange-600 font-semibold text-lg border border-orange-600 rounded-md py-2 hover:bg-orange-50">
           Visit Website
         </button>
         <div className="flex items-center justify-between mt-4">
@@ -167,7 +167,7 @@ const EventCard = () => {
       /> */}
       <div className="p-4">
         <div className="flex justify-between items-center">
-          <span className=" font-semibold">💼️ Job</span>
+          <span className=" font-semibold text-lg">💼️ Job</span>
           <div className="relative">
             <button onClick={toggleMenu} className="text-gray-500 hover:text-black">
               <FaEllipsisH />
@@ -181,14 +181,14 @@ const EventCard = () => {
             )}
           </div>
         </div>
-        <h2 className="text-xl font-bold my-2">
+        <h2 className="text-2xl font-bold my-2">
         Software Developer        </h2>
         <div className="flex items-center text-gray-900 text-sm mb-2">
           <FaCalendarAlt className="mr-2" />
           Innovaccer Analytics Private Ltd.
           <FaMapMarkerAlt className="ml-4 mr-2" />
           Noida, India        </div>
-        <button className="block w-full text-center text-green-600 font-semibold border border-green-600 rounded-md py-2 hover:bg-green-50">
+        <button className="block w-full text-center text-green-600 font-semibold text-lg border border-green-600 rounded-md py-2 hover:bg-green-50">
         Apply on Timesjobs
         </button>
         <div className="flex items-center justify-between mt-4">
